@@ -33,7 +33,6 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        <h1>test 5</h1>
         <Header user={user} />
         {alerts.map((alert, index) => (
           <AlertDismissible key={index} variant={alert.type} message={alert.message} />
